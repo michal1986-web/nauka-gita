@@ -18,3 +18,46 @@ body {
     text-align: center;
 }
 
+/* Header */
+
+.header {
+    background: #363636;
+    width: 100%;
+    height: 150px;
+}
+
+.header__title {
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.header__quote {
+    font-style: italic;
+}
+
+/* Content */
+
+.content__poem {
+    line-height: 1.8;
+    font-size: 20px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.content__poem::before {
+    content: "***";
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+}
+
+/* Footer */
+
+.footer {
+    background: #121212;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
