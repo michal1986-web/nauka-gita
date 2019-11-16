@@ -1,2 +1,2 @@
-autoprefixer-cli -o style.prefixed.css style.css
-cli [options] <.html/https://validator.nu/>
+nu-html-checker *.html
+autoprefixer-cli -o css/style.prefixed.css css/style.css
